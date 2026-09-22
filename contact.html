@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Personal Website</title>
+  </head>
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <h1>Contact Me</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Form Content -->
+    <main>
+      <section>
+        <h2>Get in Touch</h2>
+        <h3>send me some feedback, I would love to hear how you guys are doing and what I can do to improve my cite. 😁</h3>
+        
+        <form action="#" method="post">
+          <!-- Text Field with Label -->
+          <div>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required>
+          </div>
+
+          <br>
+
+          <!-- Dropdown Menu -->
+          <div>
+            <label for="contact-reason">Preferred Way to be Contacted:</label>
+            <select id="contact-reason" name="contact-reason">
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+              <option value="social">Social Media</option>
+            </select>
+          </div>
+
+          <br>
+
+          <!-- Radio Button Group -->
+          <fieldset>
+            <legend>How did you hear about this site?</legend>
+            <label for="friend">
+              <input type="radio" id="friend" name="source" value="friend"> Friend/Family
+            </label>
+            <label for="search">
+              <input type="radio" id="search" name="source" value="search"> Search Engine
+            </label>
+            <label for="other">
+              <input type="radio" id="other" name="source" value="other"> Other
+            </label>
+          </fieldset>
+
+          <br>
+
+          <!-- Textarea Field with Label -->
+          <div>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..." required></textarea>
+          </div>
+
+          <br>
+
+          <!-- Submit Button -->
+          <button type="submit">Send Message</button>
+          
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 My Personal Website</p>
+    </footer>
+  </body>
+</html>

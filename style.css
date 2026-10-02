@@ -1,27 +1,31 @@
 /* Main page */
-
+/*making text be in the center*/
 * {
     text-align: center;
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1511497584788-876760111969");
+    /*setting the backround image*/
+    background-image: url("https://st.depositphotos.com/1218908/1203/i/450/depositphotos_12038466-stock-photo-beautiful-ocean-view-of-the.jpg");
+    /*image cover whole page*/
     background-size: cover;
+    /*keep backropund in place while scrolling*/
     background-attachment: fixed;
+    /*fall back in case the backround image breaks*/
     background-color: lightblue;
-
+/*the font type and size*/
     font-family: Arial, sans-serif;
     color: black;
-
+/*creates the space*/
     margin: 0;
     padding: 30px;
 }
 
 
-/* Header */
+/* Header the top part  */
 
 header {
-    background-color: #1565c0;
+    background-color: blue;
     color: white;
 
     width: 80%;
@@ -32,7 +36,7 @@ header {
 }
 
 
-/* Navigation */
+/* Navigation whee i can go to different pages and making the color. */
 
 nav {
     background-color: #0d47a1;
@@ -45,13 +49,13 @@ nav ul {
 }
 
 nav li {
+    /*makes the lists together like in a line*/
     display: inline;
     margin: 15px;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
     font-size: 18px;
 }
 
@@ -62,6 +66,7 @@ main {
     background-color: white;
 
     width: 80%;
+    /*creates the size and centers it*/
     margin: 20px auto;
     padding: 25px;
 
@@ -97,6 +102,7 @@ h3 {
 /* Images */
 
 img {
+    /*setting how big the image can get so it doesnt break or look wierd*/
     max-width: 80%;
     height: auto;
 
@@ -112,6 +118,7 @@ a {
 }
 
 a:hover {
+    /*when u hover over the link it changes color so you know*/
     color: red;
 }
 
@@ -121,6 +128,7 @@ a:hover {
 input,
 select,
 textarea {
+    /*style the form boxes */
     padding: 8px;
     margin: 5px;
 
@@ -147,6 +155,7 @@ button:hover {
 /* Footer */
 
 footer {
+    /*make sure the footer stays on the bottom seperated from the other bits*/
     background-color: #1565c0;
     color: white;
 

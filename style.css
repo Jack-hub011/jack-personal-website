@@ -110,6 +110,13 @@ img {
     border: 3px solid #1565c0;
 }
 
+/* Iframe */
+
+iframe {
+    max-width: 80%;
+    border: 3px solid #1565c0;
+    margin: 20px;
+}
 
 /* Links */
 
